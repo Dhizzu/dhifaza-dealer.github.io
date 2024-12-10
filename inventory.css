@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #000814;
+    margin: 0;
+}
+
+.navbar {
+    background-color: transparent;
+}
+.navbar-container {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #FFD60A;
+    font-size: 18px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo img {
+    width: 125px;
+    height: auto;
+}
+.bar-menu img {
+    color: white;
+    width: 25px;
+    height: auto;
+}
+#brands {
+    background: linear-gradient(to bottom, #000814, white);
+    height: 600px;
+}
+.brand-container {
+    padding-top: 90px;
+    padding-left: 275px;
+    padding-right: 275px;
+    display: flex;
+    /* flex-wrap: wrap;
+    overflow: hidden;
+    position: relative; */
+    justify-content: center;
+    gap: 60px;
+}
+.inventory-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+}
+.box-inventory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    width: 400px;
+    height: 450px;
+}
+.type-car {
+    color: #000814;
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+.color-car {
+    color: #000814;
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.harga-car {
+    color: #000814;
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10px;
+  }
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .footer-section {
+    flex: 1 1 calc(33.333% - 20px); /* Untuk tampilan responsif */
+    margin: 10px;
+    min-width: 250px;
+  }
+  .footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #ffcc00;
+  }
+  .footer-section p {
+    margin: 5px 0;
+  }
+  .footer-section a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  .footer-bottom {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+  }
